@@ -10,6 +10,7 @@ router.get("/get-products", async (req, res) => {
       const products = await prisma.product.findMany({
         orderBy: { id: "asc" }, // or "desc" depending on your needs
       });
+      console.log(products)
       res.json(products);
     } catch (error) {
       res.status(500).json({ error: "Failed to fetch products" });

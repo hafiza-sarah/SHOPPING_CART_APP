@@ -1,0 +1,9 @@
+                      List of relations
+ Schema |        Name        | Type  |         Owner          
+--------+--------------------+-------+------------------------
+ public | Payment            | table | shopping_cart_app_user
+ public | Product            | table | shopping_cart_app_user
+ public | User               | table | shopping_cart_app_user
+ public | _prisma_migrations | table | shopping_cart_app_user
+(4 rows)
+
