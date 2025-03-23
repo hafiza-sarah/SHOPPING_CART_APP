@@ -14,7 +14,8 @@ import axios from "axios";
 
 export async function productsData() {
   try {
-    const products = await axios.get("http://localhost:8000/products/get-products");
+    console.log(import.meta.env.VITE_PUBLIC_URL, "jddddddddddddd")
+    const products = await axios.get(`${import.meta.env.VITE_PUBLIC_URL}/products/get-products`);
     console.log(products, "Fetched products data");
     return products; // Returning the full response
   } catch (error) {
