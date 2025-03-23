@@ -1,8 +1,9 @@
-🛒 SHOPPING_CART_APP
+# SHOPPING_CART_APP 🛒
 
 📢 SHOPPING_CART_APP is a modern and scalable e-commerce web application. Built with Vite, Tailwind CSS, Express.js, Stripe, Google & GitHub Auth, Firebase, PostgreSQL, and Prisma, it provides a seamless shopping experience for users.
 
-🚀 Live Demo: https://shopping-cart-app-sandy-seven.vercel.app/
+# 🚀 Live Demo: 
+https://shopping-cart-app-sandy-seven.vercel.app/
 
 📌 Features
 ✅ User Authentication (Google & GitHub Login)
