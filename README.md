@@ -70,28 +70,27 @@ ini
 Copy
 Edit
 # Admin .env
-# Server Port
+Server Port
 PORT=8000
 
-# Database Configuration (PostgreSQL)
+Database Configuration (PostgreSQL)
 DATABASE_URL=your_database_url
 
-# CORS Settings
+CORS Settings
 ORIGIN=http://localhost:5173  # Update this after deploying the frontend
 
-# Stripe API Key (For Payment Gateway)
+Stripe API Key (For Payment Gateway)
 STRIPE_SECRET_KEY=your_stripe_secret_key
 
-# Email Service (Brevo API)
+Email Service (Brevo API)
 BREVO_API_KEY=your_brevo_api_key
 SENDER_EMAIL=your_email@yourdomain.com
 
 
 # Client .env.local
-# Backend API URL
 VITE_PUBLIC_URL=your_backend_api_url
 
-# Firebase Configuration
+Firebase Configuration
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
@@ -100,16 +99,16 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
 VITE_FIREBASE_APP_ID=your_firebase_app_id
 VITE_FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
 
-# Firebase Authentication Provider
+Firebase Authentication Provider
 VITE_FIREBASE_AUTH_PROVIDER="google"
 
-# Enable Firestore (If using Firestore database)
+Enable Firestore (If using Firestore database)
 VITE_FIREBASE_FIRESTORE=true
 
-# Enable Firebase Storage (If using file storage)
+Enable Firebase Storage (If using file storage)
 VITE_FIREBASE_STORAGE=true
 
-# GitHub Authentication
+GitHub Authentication
 VITE_GITHUB_CLIENT_ID=your_github_client_id
 VITE_GITHUB_CLIENT_SECRET=your_github_client_secret
 
@@ -117,16 +116,17 @@ VITE_GITHUB_CLIENT_SECRET=your_github_client_secret
 bash
 Copy
 Edit
-# Start Backend (Server)
+
+Start Backend (Server)
 cd server
 npm run dev
 
-# Start Frontend (Client)
+Start Frontend (Client)
 cd ../client
 npm run dev
 🌐 App will run at: http://localhost:3000
 
-🌍 Deployment
+# 🌍 Deployment
 🚀 Deploy Frontend (Vercel)
 Push latest code to GitHub
 
@@ -146,7 +146,7 @@ Add environment variables
 
 Click Deploy
 
-🚀 Deploy Backend (Render)
+# 🚀 Deploy Backend (Render)
 Push latest code to GitHub
 
 Create a new web service in Render
@@ -161,7 +161,7 @@ Environment Variables: Paste from .env
 
 Click Deploy
 
-🤝 Contributing
+# 🤝 Contributing
 Want to contribute? Follow these steps:
 
 Fork the repository
@@ -176,9 +176,9 @@ Push to your branch (git push origin feature-xyz)
 
 Open a Pull Request 🚀
 
-📜 License
+# 📜 License
 This project is licensed under the MIT License.
 
-🎉 Acknowledgements
+# 🎉 Acknowledgements
 🔹 Beautifully created by Sarah Maheen 💖
 
